@@ -1,7 +1,5 @@
-from scapy.all import sniff, conf
+from scapy.all import sniff
 from parser import process_packet
-
-conf.use_pcap = True
 
 def main():
     print("[*] Starting packet sniffer...")
